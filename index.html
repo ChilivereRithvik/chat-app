@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+        <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+        <title>chat-app</title>
+        <script defer src="js/clint.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+
+    <body>
+        <nav>
+            <header>
+                <span class="material-symbols-outlined">
+                    chat
+                </span>
+                <p>Chat App</p>
+            </header>
+            <div class="userdetails">
+                <div class="details">
+                    <p id="username">User</p>
+                    <span>online</span>
+                </div>
+
+                <img src="images\user.jpg" alt="image">
+            </div>
+        </nav>
+        <div class="chatcontainer">
+
+            <!-- <div class="message right">
+                <p>o</p>hello
+            </div>
+            <div class="message left">
+                <p>o</p>hi i ma rithvik
+            </div> -->
+
+            <div class="sent">
+                <form action="#" class="text" id="send-container">
+                    <div class="emgal">
+                        <i class="material-symbols-outlined mic" id="emoji">
+                            sentiment_satisfied
+                        </i>
+                        <i class="material-symbols-outlined mic" id="file">
+                            gallery_thumbnail
+                        </i>
+                    </div>
+                    <input type="text" placeholder="Type a messages" id="messageInp">
+                    <div class="ms">
+
+                        <i class="material-symbols-outlined mic" id="send">
+                            send
+                        </i>
+                        <i class="material-symbols-outlined mic" id="mic">
+                            mic
+                        </i>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        </div>
+
+    </body>
+
+</html>
