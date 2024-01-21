@@ -43,7 +43,7 @@ Install Socket.io packages
 npm install --save socket.io
 ```
 
-Install nodemon package for fast relode
+Install nodemon package to fast relode
 ```bash 
 npm install -g nodemon
 ```
