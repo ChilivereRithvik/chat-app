@@ -76,5 +76,5 @@ To run tests, run the following command
 
 ## Feedback
 
-If you have any feedback, please reach out to us at chiliveririthvik@gamil.com
+If you have any feedback, please reach out to us at chiliveririthvik444@gamil.com
 
